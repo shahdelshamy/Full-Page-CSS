@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("image/image.jpg");
+}
+
+.about {
+    text-align: center;
+    font-size: 110px;
+    color: rgb(126, 142, 158);
+}
+
+.commit {
+    text-align: center;
+    margin-top: -22px;
+    color: grey;
+    font-size: 20px;
+}
+
+.container div {
+    float: left;
+    margin: 20px 0 0 12px;
+    width: 32%;
+    background-color: #dcd6d6;
+    border-radius: 15px;
+}
+
+.container h3 {
+    margin: 18px 0 10px 5px;
+}
+
+.container p {
+    margin: 0 0 18px 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.text p {
+    margin: 20px 0 0 15px;
+    width: 27.5%;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
